@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project4C</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  
+  <link rel="stylesheet" href="Css.css" />
+</head>
+<body>
+  <div class="video">
+    <div class="container">
+      <div class="top">
+        <video class="pic" id="localVideo" autoplay playsinline></video>
+        <video class="pic" id="remoteVideo" autoplay playsinline></video>
+      </div>
+  
+      <div class="btns">
+        <button class="btn" id="startButton">Start</button>
+        <button class="btn" id="callButton">Call</button>
+        <button class="btn" id="hangupButton">Hang Up</button>
+        <button class="btn" id="shareScreenButton">Share Screen</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+  <script src="Js.js"></script>
+  
+</body>
+</html>
